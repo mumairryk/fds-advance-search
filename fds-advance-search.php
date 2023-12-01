@@ -2,17 +2,15 @@
 /**
  * @package  FDS Advance Search
 Plugin Name: FDS Advance Search
-Plugin URI: http://www.finaldatasolutions.com/
 Description: This is advance search plugin.
 Version: 1.2.3
-Author: Ibrar Ayoub
-Author URI: http://www.finaldatasolutions.com/
+Author: Muhammad Umair
 License: GPLv2 or later
 */
 
 require 'plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/manager-wiseTech/fds-advance-search/',
+	'https://github.com/mumairryk/fds-advance-search/',
 	__FILE__,
 	'fds-advance-search'
 );
